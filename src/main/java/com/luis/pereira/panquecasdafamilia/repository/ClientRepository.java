@@ -1,5 +1,9 @@
 package com.luis.pereira.panquecasdafamilia.repository;
 
+import com.luis.pereira.panquecasdafamilia.model.ClientEntity;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
 
-public interface ClientRepository extends CrudRepository<ClientRepository, Long> {}
+@Repository
+public interface ClientRepository extends CrudRepository<ClientEntity, Long> {}
+
