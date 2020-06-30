@@ -32,5 +32,5 @@ public class PancakeEntity {
 
     @Column(name = "amount")
     private int amount;
-    
+
 }
